@@ -102,12 +102,11 @@ class Restaurante:
         else:
             print(" La reserva ya fue cancelada o no existe.")
 
-# =======================================================
+
 # PRUEBA DE EJECUCIÓN (Configuración del Entorno de Desarrollo)
-# =======================================================
 if __name__ == "__main__":
     print(" - INICIO DE PRUEBA DE SISTEMA MODULAR - ")
-    mi_restaurante = Restaurante(mesas_totales=2) # Solo 2 mesas para prueba rápida
+    mi_restaurante = Restaurante(mesas_totales=2) # Solo 2 mesas
 
     # 1. Reservas de clientes
     res_maria = mi_restaurante.hacer_reserva("María López", "Sushi")
